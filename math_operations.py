@@ -9,13 +9,13 @@ try:
     result = None
     error = None
     
-    if operation == "add":
+    if operation == "Addition":
         result = num1 + num2
-    elif operation == "sub":
+    elif operation == "Subtraction":
         result = num1 - num2
-    elif operation == "mult":
+    elif operation == "Multiplication":
         result = num1 * num2
-    elif operation == "divi":
+    elif operation == "Division":
         if num2 != 0:
             result = num1 / num2
         else:
