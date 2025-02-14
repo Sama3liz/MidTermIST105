@@ -24,7 +24,7 @@
 		<br>
 		<select name="operation" id="operation">
 			<option value="Addition">Additon</option>
-			<option value="Subtraction">Substraction</option>
+			<option value="Subtraction">Subtraction</option>
 			<option value="Multiplication">Multiplication</option>
 			<option value="Division">Division</option>
 		</select>
