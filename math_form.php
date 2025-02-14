@@ -23,10 +23,10 @@
 		<input type="number" name="num2" required>
 		<br>
 		<select name="operation" id="operation">
-			<option value="sum">Additon</option>
-			<option value="sub">Substraction</option>
-			<option value="mult">Multiplication</option>
-			<option value="divi">Division</option>
+			<option value="Addition">Additon</option>
+			<option value="Subtraction">Substraction</option>
+			<option value="Multiplication">Multiplication</option>
+			<option value="Division">Division</option>
 		</select>
 		<br>
 		<input type="submit" value="Calculate">
