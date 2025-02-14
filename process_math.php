@@ -6,7 +6,7 @@ $c = escapeshellarg($_POST['operation']);
 
 echo "$a $b $c"
 
-$command = escapeshellcmd("python3 process.py $a $b $c");
+$command = escapeshellcmd("python3 math_operations.py $a $b $c");
 $output = shell_exec($command);
 
 echo "<h2>Calculation Results:</h2>";
