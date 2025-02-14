@@ -30,8 +30,8 @@ try:
             
     print("<h3>Result</h3>")
 
-    if error_message:
-        print(f"<p style='color:red;'>{error_message}</p>")
+    if error:
+        print(f"<p style='color:red;'>{error}</p>")
     else:
         print(f"<p>The result is: <strong>{operation}</strong></p>")
         print(f"<p>Input 1: <strong>{num1}</strong></p>")
